@@ -30,5 +30,51 @@ header .nav-bar a{
     padding: 18px;
     font-size: 16px;
     color: #707070;
+}
+
+.top-section {
+    display: flex;
+    width: 1212px;
+    height: 455px;
+    background-color: #FEEAE9;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 100px 30px;
+    padding: 20px 30px;
+}
+
+.top-section h1 {
+    font-size: 56px;
+}
+
+
+.top-section .top-left-section{
+    width: 70%;
+    font-size: 16px;
+    color: black;
+}
+
+.top-section p{
+    font-size: 41px;
+    color: #FF136F;
+}
+
+.top-section button{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    width: 168px;
+    height: 52px;
+    padding: 14px, 20px, 14px, 20px;
+    border-radius: 6px;
+    border: none;
+ }
+.top-section button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
 
 }
+.top-section img{
+    width: 402px;
+}
+

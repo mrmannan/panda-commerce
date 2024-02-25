@@ -1,0 +1,34 @@
+/* body{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+} */
+
+
+header{
+    width: 90%;
+    height: 36px;
+    display:flex;
+    justify-content:space-between;
+    align-items: top;
+    margin: 15px auto;
+
+}
+    
+header .search-box input{
+width: 508.94px;
+    height: 24px;
+background: #F1F1F1;
+border-radius: 66px;
+    flex-grow: 2;
+    padding: 12px;
+}
+
+header .nav-bar a{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 16px;
+    color: #707070;
+
+}

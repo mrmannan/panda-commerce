@@ -147,3 +147,75 @@ height: 90px;
 top: 15px;
 left: 242px
 }
+
+
+/* Shoes Section Stared */
+.bg{
+    width: 1440px;
+height: 1486px;
+top: 929px;
+background: #F4F4F4;
+justify-content: space-between;
+display: flex;
+flex-direction: column;
+padding: 40px 0;
+margin: 40px 0;
+
+}
+
+
+.shoes, .bag{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.shoes-up, .bag-up{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    /* align-items: center; */
+}
+
+
+.shoes-up a, .bag-up a{
+    text-decoration: none;
+    color:  #FF9D00;
+}
+.box-hd{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 360px;
+    height: 496px;
+    border-radius:20px;
+Padding:24px;
+background: #FFFFFF;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+}
+
+.box  h4, p, button{
+    margin-top: 40px;
+}
+
+.box img{
+    width: 336px;
+height: 202px
+}
+
+.box button{
+    width: 168px;
+    height: 52px;
+    border-radius: 6px;
+    Padding:14px, 20px, 14px, 20px;
+    background: #000000;
+}
+.box button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Shoes Section Ended */

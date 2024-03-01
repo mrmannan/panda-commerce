@@ -1,3 +1,6 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
 header{
     width: 90%;
     height: 36px;
@@ -32,7 +35,7 @@ header .nav-bar a{
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin: 100px 30px;
+    margin: 50px 30px;
     padding: 20px 30px;
 }
 
@@ -42,14 +45,18 @@ header .nav-bar a{
 
 
 .top-section .top-left-section{
-    width: 70%;
+    width: 50%;
     font-size: 16px;
-    color: black;
+    color: black;   
+    text-align: left;
+    margin:20px 0
 }
 
 .top-section p{
     font-size: 41px;
     color: #FF136F;
+    text-align: left;
+    margin:0;
 }
 
 .top-section button{
@@ -59,6 +66,7 @@ header .nav-bar a{
     padding: 14px, 20px, 14px, 20px;
     border-radius: 6px;
     border: none;
+    margin: 10px 0;
  }
 .top-section button a{
     text-decoration: none;
@@ -156,11 +164,48 @@ height: 1486px;
 top: 929px;
 background: #F4F4F4;
 justify-content: space-between;
+align-items: start;
 display: flex;
 flex-direction: column;
 padding: 40px 0;
 margin: 40px auto;
 
+}
+
+.bg .shoes .shoes-up h1{
+    font-size: 36px;
+    margin: 5px;
+}
+
+.box-hd .box h4{
+font-size: 24px;
+margin: 20px;
+}
+
+
+.box-hd .box p{
+    font-size: 16px;
+    margin: 20px;
+}
+
+.box-hd .box .tk{
+    font-size: 24px;
+    margin: 20px;
+}
+
+.box-hd .box button{
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-hd .box button svg{
+    width: 21px;
+    height: 52px;
+    fill: white;
+    justify-content: right;
+   
 }
 
 
@@ -240,13 +285,23 @@ display: flex;
 height: 73px;
 margin-right: 0;
 border-radius: 6px 0 0 6px;
+border: none;
+}
+
+.footer input placeholder{
+    text-align: center;
 }
 
 .footer span{
     width:157px;
-    height: 80px;
+    height: 60px;
     background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
     margin-left: 0;
     padding: 30px 50px;
     border-radius: 0 6px 6px 0;
-}
+    }
+
+    .footer a{
+        text-decoration: none;
+        font-size: 26px;
+    }

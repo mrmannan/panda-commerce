@@ -228,8 +228,8 @@ header .nav-bar a {
 }
 
 .box {
-  width: 360px;
-  height: 496px;
+  width: 300px;
+  height: 520px;
   border-radius: 20px;
   padding: 24px;
   background: #ffffff;
@@ -242,6 +242,7 @@ header .nav-bar a {
 p,
 button {
   margin-top: 40px;
+  height: 60px;
 }
 
 .box img {
